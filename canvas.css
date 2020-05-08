@@ -1,0 +1,50 @@
+body
+{
+    margin: 0px;
+    background: linear-gradient( #4a4e69, #8d99ae);
+    font-family: 'Monstroula Shadow TT  Dark Shadow1.0', arial;
+}
+.header
+{
+    height: 100px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    width: 100%;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container canvas
+{
+    background-image: url("./img_Niveles/nivel1.png");
+}
+.container canvas:hover
+{
+    cursor: crosshair;
+}
+.container button
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: whitesmoke;
+    margin-top: 26px;
+    padding: 12px 10px;
+    border-radius: 20px;
+    border: 2px black solid;
+    cursor: pointer;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: whitesmoke;
+}
